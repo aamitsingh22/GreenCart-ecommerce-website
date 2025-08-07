@@ -21,7 +21,7 @@ await connectCloudinary()
 // const cors = require('cors');
 // app.use(cors());
 // Allow multiple origins
-const allowedOrigins = ['http://localhost:5173', 'https://green-cart-quick-commerce-f37a.vercel.app/']
+const allowedOrigins = ['http://localhost:5173', 'https://green-cart-ecommerce-website-vehh.vercel.app']
 
 app.post('/stripe', express.raw({type: 'application/json'}), stripeWebhooks)
 
